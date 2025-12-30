@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -137,7 +137,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 74px);
     position: relative;
 }
 .landing .overlay {
@@ -183,3 +183,30 @@ body {
     background-color: #026fca;
 }
 /* end landing section */
+/* start features section */
+.features {
+    padding: 60px 0;
+    background-color: #f6f6f6;
+}
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap:15px;
+}
+.features .feat {
+    padding: 20px;
+    text-align: center;
+}
+.features .feat i {
+    color: var(--main-color);
+}
+.features .feat h3 {
+    font-weight: 800;
+}
+.features .feat p {
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;;
+}
+
+/* end features section */
