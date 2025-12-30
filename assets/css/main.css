@@ -133,7 +133,10 @@ body {
 /* start landing section */
 .landing {
     background-image: url(/assets/images/landing.jpg);
+    background-color: #000; /* لون افتراضي قبل تحميل الصورة */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: calc(100vh - 90px);
     position: relative;
 }
@@ -174,5 +177,9 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.landing .intro-text .btn:hover {
+    background-color: #026fca;
 }
 /* end landing section */
