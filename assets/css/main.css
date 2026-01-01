@@ -42,7 +42,7 @@ body {
     }
 }
 /* start special components  */
-.spcial-heading {
+.special-heading {
     color: #ebeced;
     font-size: 100px;
     text-align: center;
@@ -50,17 +50,17 @@ body {
     letter-spacing: -3px;
     margin: 0;
 }
-.spcial-heading + p {
+.special-heading + p {
     margin: -30px 0 0;
     font-size: 20px;
     text-align: center;
     color: #797979;
 }
 @media (max-width: 767px) {
-    .spcial-heading {
+    .special-heading {
         font-size: 60px;
     }
-    .spcial-heading + p{
+    .special-heading + p{
         margin-top: -20px;
     }
 }
@@ -262,4 +262,5 @@ body {
 .col .image img {
     max-width: 100%;
 }
+
 /* end services  */
